@@ -49,43 +49,58 @@ principio de inversión de dependencias:
    generales dadas anteriormente. Recuerde tener en cuenta: @pre,
    @pos, @param, @throws.
 
-4. Haga commit de lo realizado hasta ahora. Desde la terminal:
+
+Original Score   
+![image](https://github.com/koket987/LAB03-CVDS/assets/97971883/f758ee21-be48-4d2d-a660-ddac03b26ae2)
+
+
+Bonus Score
+![image](https://github.com/koket987/DependencyInjectionHangman/assets/97971883/2e79bd86-401e-4fb4-9c03-a55b56734e57)
+
+
+Power Score
+![image](https://github.com/koket987/DependencyInjectionHangman/assets/97971883/f61ea15c-d439-475f-a981-3cea59ad614f)
+
+
+
+
+5. Haga commit de lo realizado hasta ahora. Desde la terminal:
 
     ```sh		
     git add .			
     git commit -m "especificación métodos"
     ```
 
-5. Actualice el archivo `pom.xml` e incluya las dependencias para la ultima versión de JUnit.
+6. Actualice el archivo `pom.xml` e incluya las dependencias para la ultima versión de JUnit.
 
-6. Teniendo en cuenta dichas especificaciones, en la clase donde se
+7. Teniendo en cuenta dichas especificaciones, en la clase donde se
    implementarán las pruebas (GameScoreTest), en los
    comentarios iniciales, especifique las clases de equivalencia para
    las tres variantes de GameScore, e identifique
    condiciones de frontera.
 
-7. Para cada clase de equivalencia y condición de frontera, implemente
+8. Para cada clase de equivalencia y condición de frontera, implemente
    una prueba utilizando JUnit.
 
-8. Haga commit de lo realizado hasta ahora. Desde la terminal:
+9. Haga commit de lo realizado hasta ahora. Desde la terminal:
 
     ```sh		
     git add .			
     git commit -m "implementación pruebas"
     ```
 
-9. Realice la implementación de los 'cascarones' realizados anteriormente.
+10. Realice la implementación de los 'cascarones' realizados anteriormente.
    Asegúrese que todas las pruebas unitarias creadas en los puntos anteriores
    se ejecutan satisfactoriamente.
 
-10. Al finalizar haga un nuevo commit:
+11. Al finalizar haga un nuevo commit:
 
     ```sh		
     git add .			
     git commit -m "implementación del modelo"
     ```
 
-11. Para sincronizar el avance en el respositorio y NO PERDER el trabajo, use
+12. Para sincronizar el avance en el respositorio y NO PERDER el trabajo, use
     el comando de GIT para enviar los cambios:
 
     ```sh
